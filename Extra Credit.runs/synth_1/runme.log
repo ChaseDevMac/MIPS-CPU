@@ -1,0 +1,458 @@
+
+*** Running vivado
+    with args -log adder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source adder.tcl -notrace
+Command: synth_design -top adder -part xc7z007sclg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17536 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 704.832 ; gain = 176.539
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/sources_1/new/CPU.v:54]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (1#1) [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/sources_1/new/CPU.v:54]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 769.895 ; gain = 241.602
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 769.895 ; gain = 241.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 769.895 ; gain = 241.602
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc]
+WARNING: [Vivado 12-584] No ports matched 'nextPC[31]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[30]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[29]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[28]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[27]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[26]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[25]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[24]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[23]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[22]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[21]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[20]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[19]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[18]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[17]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[16]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[15]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[14]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[13]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[12]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[11]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[10]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[9]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[8]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[7]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[6]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[5]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[4]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[3]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[2]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[1]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[0]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[31]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[30]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[29]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[28]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[27]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[26]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[25]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[24]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[23]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[22]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[21]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[20]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[19]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[18]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[17]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[16]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[15]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[14]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[13]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[12]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[11]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[10]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[9]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[8]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:122]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[7]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[6]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[5]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[4]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[3]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[2]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[1]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'nextPC[0]'. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/constrs_1/new/constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/adder_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/adder_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 801.988 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 801.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 801.988 ; gain = 273.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 801.988 ; gain = 273.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 801.988 ; gain = 273.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 801.988 ; gain = 273.695
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 801.988 ; gain = 273.695
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 857.625 ; gain = 329.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 857.625 ; gain = 329.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 867.156 ; gain = 338.863
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 882.949 ; gain = 354.656
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 882.949 ; gain = 354.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 882.949 ; gain = 354.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 882.949 ; gain = 354.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 882.949 ; gain = 354.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 882.949 ; gain = 354.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT1   |     1|
+|3     |IBUF   |    32|
+|4     |OBUF   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    73|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 882.949 ; gain = 354.656
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:48 . Memory (MB): peak = 882.949 ; gain = 322.563
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 882.949 ; gain = 354.656
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 901.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 64 Warnings, 64 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:01 . Memory (MB): peak = 901.859 ; gain = 603.230
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 901.859 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.runs/synth_1/adder.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file adder_utilization_synth.rpt -pb adder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 16 01:07:50 2020...

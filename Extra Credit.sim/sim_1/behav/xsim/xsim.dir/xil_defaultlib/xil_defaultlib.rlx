@@ -1,0 +1,7 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/sim_1/new/testbench.v,1607654301,verilog,,,,testbench,,,,,,,,
+C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/sources_1/new/CPU.v,1607723850,verilog,,C:/Users/Chase/Documents/School/College/5th Semester/CMPEN 331/Labs/Extra Credit/Extra Credit.srcs/sim_1/new/testbench.v,,ALU;ALUmuxA;ALUmuxB;BranchPC;BranchPCShift;ControlUnit;DataMem;EXEMEM;ForwardAMux;ForwardBMux;IDEXE;IFID;InstrMem;JumpPC;MEMWB;PCmux;PostALUMux;ProgramCounter;Regfile;SignExt;WBmux;adder;data_memory;epc4Adder;f;instruction_memory;rsrtEqualCheck;rsrtMux,,,,,,,,
